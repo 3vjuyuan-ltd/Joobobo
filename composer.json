@@ -16,10 +16,12 @@
     "docs":"https://projects.3vjuyuan.com/Joobobo/docs"
   },
   "require": {
-    "composer/installers": "dev-master",
-    "wikimedia/composer-merge-plugin": "dev-master",
+    "composer/installers": "^1.0.21",
+    "wikimedia/composer-merge-plugin": "~1.3",
     "joobobo/cms": "dev-master"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "extra": {
     "installer-paths": {
       "joobobo": ["type:joobobo/cms"],
