@@ -1,0 +1,11 @@
+{
+  "name": "joobobo/cms-admin",
+  "description": "Joobobo - Joomla CMS with Bootstrap and H5 Boilerplate",
+  "type": "joobobo/cms",
+  "license": "GPL-2.0+",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

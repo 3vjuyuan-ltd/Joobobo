@@ -1,0 +1,30 @@
+{
+  "name": "3vjuyuan/joobobo",
+  "type": "project",
+  "description": "Joobobo - Joomla CMS with Bootstrap and H5 Boilerplate",
+  "keywords": ["joobobo", "joomla", "cms", "bootstrap", "boilerplate"],
+  "homepage": "https://github.com/3vjuyuan/joobobo",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "3vjuyuan",
+      "email": "info@3vjuyuan.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/3vjuyuan/Joobobo/issues",
+    "docs":"https://projects.3vjuyuan.com/Joobobo/docs"
+  },
+  "require": {
+    "composer/installers": "dev-master",
+    "wikimedia/composer-merge-plugin": "dev-master",
+    "joobobo/cms": "dev-master"
+  },
+  "extra": {
+    "installer-paths": {
+      "joobobo": ["type:joobobo/cms"],
+      "joobobo/libraries/{$name}": ["type:joobobo-library"],
+      "joobobo/modules/contrib/{$name}": ["type:joobobo-module"]
+    }
+  }
+}
